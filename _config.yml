@@ -10,7 +10,7 @@ tagline:             ' <br>The horizon of many people is a circle of redius zero
 description:         ''
 url:                 'http://adityagodbole.github.io'
 paginate:            5
-
+excerpt_separator:   '<!--more-->'
 # About/contact
 author:
   name:              adityagodbole
