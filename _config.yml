@@ -6,7 +6,7 @@ relative_permalinks: true
 
 # Setup
 title:               adityagodbole
-tagline:             ' -- The horizon of many people is a circle of redius zero. They call it their point of view.'
+tagline:             ' <br>The horizon of many people is a circle of redius zero. They call it their point of view.'
 description:         ''
 baseurl:             ''
 paginate:            5
