@@ -8,6 +8,7 @@ relative_permalinks: true
 title:               adityagodbole
 tagline:             ' <br>The horizon of many people is a circle of redius zero. They call it their point of view.'
 description:         ''
+url:                 'adityagodbole.github.io'
 baseurl:             ''
 paginate:            5
 
