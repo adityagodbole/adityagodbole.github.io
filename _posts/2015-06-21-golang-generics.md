@@ -1,4 +1,5 @@
 ---
+layout: post
 title: Golang generics via code generation using the C preprocessor
 ---
 
