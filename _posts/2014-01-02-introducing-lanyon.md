@@ -2,6 +2,7 @@
 layout: post
 title: Introducing Lanyon
 ---
+This is the theme I have used to kickstart the blog, hence I am leaving the original post that came with theme intact.
 
 Lanyon is an unassuming [Jekyll](http://jekyllrb.com) theme that places content first by tucking away navigation in a hidden drawer. It's based on [Poole](http://getpoole.com), the Jekyll butler.
 <!--more-->
