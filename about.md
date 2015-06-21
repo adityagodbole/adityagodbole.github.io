@@ -3,5 +3,15 @@ layout: page
 title: About
 ---
 
-* code.aa at gdbl [dot] me
-* telegram.me/aagdbl
+Contact
+
+* aa at gdbl [dot] me
+
+Technical Interests
+
+* C
+* Ruby
+* JS
+* Scheme
+* Go
+* Java
