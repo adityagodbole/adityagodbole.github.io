@@ -1,5 +1,6 @@
-Date: 25 March 2015
-Title: Golang generics via code generation using the C preprocessor
+---
+title: Golang generics via code generation using the C preprocessor
+---
 
 _This post is a followup to a talk I gave at the Pune golang meetup on using the C pre-processor to generate code to implement a poor man's generics. If you are familiar with the generics problem, feel free to jump to the cpp solution below._
 
