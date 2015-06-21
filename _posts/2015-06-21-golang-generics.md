@@ -5,6 +5,7 @@ title: Golang generics via code generation using the C preprocessor
 
 _This post is a followup to a talk I gave at the Pune golang meetup on using the C pre-processor to generate code to implement a poor man's generics. If you are familiar with the generics problem, feel free to jump to the cpp solution below._
 
+<!--more-->
 When Go came out, it was positioned as a better C++. However, Go does not have generics. And interfaces are not generics, no matter what anyone says. So I don't see people who use C++ templates, moving to Go. And by that I don't mean that I don't think they won't move; I have asked a lot of people who write C++ and they have said they are not moving because they need generics.
 
 After being heavily influenced by [SICP](http://mitpress.mit.edu/sicp/) and having used dynamically typed languages like Ruby and Javascript, and to a lesser extent Java 8 and Haskell for the last 5 odd years, I was quite disappointed that there was no simple way to express higher order process abstractions in Go. Sure it has first class functions. But in a statically typed language, they are not very useful without generics or algebraic data types. There are a couple of options to solve the generics problem though. The first one is to use reflection. Here are a couple of files that demonstrate how to implement a "generic" cons list using reflection.
