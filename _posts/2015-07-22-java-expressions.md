@@ -28,6 +28,7 @@ else
   dir = "/usr/bin"
 end
 ```
+
 The former is an _expression_ while the later uses _statements_.
 This may be a contrived example, but you see code like the above scattered
 all over the place in a language like Java. For example,
@@ -52,6 +53,7 @@ public class Let {
     }
 }
 ```
+
 Then you can do -
 
 ```java
