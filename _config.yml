@@ -16,6 +16,7 @@ author:
   name:              adityagodbole
   email:             code.aa@gdbl.me
 markdown: redcarpet
+highlighter: pygments
 redcarpet:
   extension: ["smart"]
 
