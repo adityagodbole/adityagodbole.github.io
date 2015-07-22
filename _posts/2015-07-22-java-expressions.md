@@ -1,7 +1,7 @@
---
+---
 layout: post
 title: expressions in Java 8
---
+---
 
 Having worked in languages like Ruby, Coffeescript, Haskell, Scheme, etc. I miss expressions in other languages like Java.
 Here is a simple way of writing expressions in Java 8, now that it has lambdas and functional interfaces
