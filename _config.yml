@@ -15,7 +15,7 @@ author:
   name:              adityagodbole
   email:             code.aa@gdbl.me
 markdown: kramdown
-highlighter: pygments
+highlighter: rouge
 
 
 # Custom vars
