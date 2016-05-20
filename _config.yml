@@ -14,10 +14,9 @@ excerpt_separator:   '<!--more-->'
 author:
   name:              adityagodbole
   email:             code.aa@gdbl.me
-markdown: redcarpet
+markdown: kramdown
 highlighter: pygments
-redcarpet:
-  extension: ["smart"]
+
 
 # Custom vars
 version:             1.0.0
