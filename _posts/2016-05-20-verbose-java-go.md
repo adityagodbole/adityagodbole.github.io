@@ -1,4 +1,7 @@
-## FUD - Java verbosity
+---
+layout: post
+title: FUD - Java verbosity
+---
 
 One of the pet FUD items of Go programmers when it comes to Java bashing
 is the verbosity of the language.
@@ -8,10 +11,10 @@ a text file which has one number on each line and returns an array of
 long/uint64 numbers, or raises exception/returns error on error.
 
 ```java
-    private static Long[] getNumbers(String filename) throws IOException {
-            final Stream<String> lines = Files.lines(Paths.get(filename));
-            return lines.map(Long::parseLong).toArray(Long[]::new);
-    }
+private static Long[] getNumbers(String filename) throws IOException {
+    final Stream<String> lines = Files.lines(Paths.get(filename));
+    return lines.map(Long::parseLong).toArray(Long[]::new);
+}
 ```
 
 ```go
