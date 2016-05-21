@@ -11,9 +11,8 @@ a text file which has one number on each line and returns an array of
 long/uint64 numbers, or raises exception/returns error on error.
 
 ```java
-private static Long[] getNumbers(String filename) throws IOException {
-    final Stream<String> lines = Files.lines(Paths.get(filename));
-    return lines.map(Long::parseLong).toArray(Long[]::new);
+private static List<String> getNumbers(String filename) throws IOException {
+    return Files.readAllLines(Paths.get(filename));
 }
 ```
 
