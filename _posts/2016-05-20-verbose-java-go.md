@@ -5,7 +5,7 @@ title: FUD - Java verbosity
 
 One of the pet FUD items of Go programmers when it comes to Java bashing
 is the verbosity of the language.
-
+<!--more-->
 Here is a real world comparison. This is function that takes the name of
 a text file which has one number on each line and returns an array of
 long/uint64 numbers, or raises exception/returns error on error.
