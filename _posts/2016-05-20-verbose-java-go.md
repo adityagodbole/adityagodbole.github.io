@@ -12,9 +12,8 @@ long/uint64 numbers, or raises exception/returns error on error.
 
 ```java
 private static List<Long> getNumbers(String filename) throws IOException {
-    final List<String> strings = Files.readAllLines(Paths.get(filename));
-    return strings.stream()
-            .map(Long::parseLong)
+    final Stream<String> strings = Files.lines(Paths.get(filename));
+    return strings.map(Long::parseLong)
             .collect(Collectors.toList());
 }
 ```
