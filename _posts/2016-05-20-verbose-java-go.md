@@ -6,13 +6,16 @@ title: FUD - Java verbosity
 One of the pet FUD items of Go programmers when it comes to Java bashing
 is the verbosity of the language.
 <!--more-->
-Here is a real world comparison. This is function that takes the name of
+Here is a real world comparison. This is a function that takes the name of
 a text file which has one number on each line and returns an array of
 long/uint64 numbers, or raises exception/returns error on error.
 
 ```java
-private static List<String> getNumbers(String filename) throws IOException {
-    return Files.readAllLines(Paths.get(filename));
+private static List<Long> getNumbers(String filename) throws IOException {
+    final List<String> strings = Files.readAllLines(Paths.get(filename));
+    return strings.stream()
+            .map(Long::parseLong)
+            .collect(Collectors.toList());
 }
 ```
 
