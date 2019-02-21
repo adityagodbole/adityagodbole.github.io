@@ -1,0 +1,172 @@
+<html lang="en">
+
+<head>
+    <style type="text/css">
+        .styles_overlay__CLSq- {
+            background: rgba(0, 0, 0, 0.75);
+            display: flex;
+            align-items: flex-start;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            overflow-y: auto;
+            overflow-x: hidden;
+            z-index: 1000;
+            padding: 1.2rem;
+        }
+        
+        .styles_overlayCenter__YHoO7 {
+            align-items: center;
+        }
+        
+        .styles_modal__gNwvD {
+            max-width: 800px;
+            position: relative;
+            padding: 1.2rem;
+            background: #ffffff;
+            background-clip: padding-box;
+            box-shadow: 0 12px 15px 0 rgba(0, 0, 0, 0.25);
+            margin: auto;
+        }
+        
+        .styles_closeButton__20ID4 {
+            position: absolute;
+            top: 14px;
+            right: 14px;
+            border: none;
+            padding: 0;
+            background-color: transparent;
+            display: flex;
+        }
+        
+        .styles_closeIcon__1QwbI {}
+        
+        .styles_transitionEnter__3j_-a {
+            opacity: 0.01;
+        }
+        
+        .styles_transitionEnterActive___eQs7 {
+            opacity: 1;
+            transition: opacity 500ms cubic-bezier(0.23, 1, 0.32, 1);
+        }
+        
+        .styles_transitionExit__1KmEf {
+            opacity: 1;
+        }
+        
+        .styles_transitionExitActive__1nQXw {
+            opacity: 0.01;
+            transition: opacity 500ms cubic-bezier(0.23, 1, 0.32, 1);
+        }
+    </style>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1,shrink-to-fit=no">
+    <meta name="theme-color" content="#000000">
+    <link rel="manifest" href="/manifest.json">
+    <link rel="shortcut icon" href="/favicon.ico">
+    <title>Digital Journey</title>
+    <link rel="stylesheet" href="https://s3-ap-southeast-1.amazonaws.com/avay/main.dj-test.css">
+    <style id="style-1-cropbar-clipper">
+        /* Copyright 2014 Evernote Corporation. All rights reserved. */
+        
+        .en-markup-crop-options {
+            top: 18px !important;
+            left: 50% !important;
+            margin-left: -100px !important;
+            width: 200px !important;
+            border: 2px rgba(255, 255, 255, .38) solid !important;
+            border-radius: 4px !important;
+        }
+        
+        .en-markup-crop-options div div:first-of-type {
+            margin-left: 0px !important;
+        }
+    </style>
+    <script>
+	function sendSMS() {
+		let ktpText = document.getElementById("nationalID").value;
+		let url = "sms://5552345678?body=KTP:"+ktpText;
+		console.log(url);
+		window.open(url);
+	}
+    </script>
+</head>
+
+<body>
+    <noscript>You need to enable JavaScript to run this app.</noscript>
+    <div id="root">
+        <div id="wrapper" style="padding-top: 194px;">
+            <header id="header" class="Header-module__siteHeader Header-module__sticky Header-module__isSticky">
+                <div class="container">
+                    <div class="Header-module__innerHeader clearfix">
+                        <div class="Header-module__siteBrand">
+                            <a href="/?c=tks&amp;t=dj_cash_loan">
+                                <div class="Header-module__siteBrandLogo" alt=""></div>
+                                <div class="Header-module__poweredBy"><span class="Header-module__poweredByText">Powered by </span>
+                                    <div class="Header-module__tsBrandLogo"></div>
+                                </div>
+                            </a>
+                        </div><a class="Header-module__navBars"><span></span></a>
+                        <nav class="Header-module__mainMenu">
+                            <ul class="Header-module__menu">
+                                <li><a href="/?c=tks&amp;t=dj_cash_loan">Rumah</a></li>
+                                <li><a href="/terms?c=tks&amp;t=dj_cash_loan">Syarat Dan Ketentuan</a></li>
+                                <li><a href="/contact?c=tks&amp;t=dj_cash_loan">Hubungi Kami</a></li>
+                                <li><a href="/policy?c=tks&amp;t=dj_cash_loan">Kebijakan Privasi</a></li>
+                            </ul>
+                        </nav>
+                    </div>
+                </div>
+            </header>
+            <main id="main" class="site-main">
+                <p class="promotionText">Dapatkan pinjaman Quick Cash dari mitra keuangan Telkomsel</p>
+                <section class="register-section">
+                    <div class="container">
+                        <div class="step-register-fullbox">
+                            <div class="FormContainer-module__rightRegsiter">
+                                <div class="FormContainer-module__registerStep">
+                                    <div class="form-wrapper">
+                                        <h2 class="Session-module__registerFormTitle">Pendaftaran</h2>
+                                        <form lpformnum="1">
+                                            <fieldset>
+                                                <div class="Fields-module__inputField">
+                                                    <label><span class="Fields-module__required">*&nbsp;</span><span class="label">Nomor KTP</span></label><span class="Fields-module__inputWrapper"><input id="nationalID" type="text" placeholder="Masukkan Nomor KTP" name="" value=""></span></div>
+                                           </fieldset>
+                                            <input type="checkbox">Saya setuju dengan <a class="SessionForm-module__agreement">syarat dan ketentuan</a> serta <a class="SessionForm-module__agreement">kebijakan privasi</a> yang berlaku
+                                            <div class="SessionForm-module__registerFormAction">
+                                                <button class="Button-module__customButtonWidth100 action Button-module__priButton" type="button" onclick="sendSMS()">Send free sms to apply</button>
+                                            </div>
+                                        </form>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </section>
+            </main>
+            <footer id="footer" class="site-footer">
+                <div class="site-bottom">
+                    <div class="container">
+                        <div class="row">
+                            <div class="widget">
+                                <div class="Logo-module__textWidget">
+                                    <a href="/?c=tks&amp;t=dj_cash_loan">
+                                        <div class="Logo-module__tsBrandLogo" alt=""></div>
+                                    </a>
+                                    <p><a href="/terms?c=tks&amp;t=dj_cash_loan">Syarat Dan Ketentuan - </a><a href="/contact?c=tks&amp;t=dj_cash_loan">Hubungi Kami - </a><a href="/policy?c=tks&amp;t=dj_cash_loan">Kebijakan Privasi</a></p>
+                                </div>
+                            </div>
+                            <div class="copyright">© 2018 by Trusting Social.com. All rights reserved</div>
+                        </div>
+                    </div>
+                </div>
+            </footer>
+        </div>
+    </div>
+    <script src="https://s3-ap-southeast-1.amazonaws.com/avay/test/config.js"></script>
+    <script src="/static/js/main.e4544f3b.js"></script>
+</body>
+
+</html>
